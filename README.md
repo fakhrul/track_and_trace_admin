@@ -22,3 +22,9 @@ nodejs -v
 ````
 [Reference 1: https://www.hostinger.my/tutorials/how-to-install-node-ubuntu](https://www.hostinger.my/tutorials/how-to-install-node-ubuntu)
 ## git clone app
+1. git clone and nnstall dependency
+```
+git clone [url]
+cd [path]
+npm install
+```
