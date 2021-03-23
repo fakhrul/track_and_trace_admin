@@ -38,7 +38,7 @@ export default [
         _name: 'CSidebarNavItem',
         name: 'Activity',
         to: '/admin/activitylist',
-        icon: 'cil-cursor'
+        icon: 'cil-calculator'
       },
       {
         _name: 'CSidebarNavTitle',
@@ -48,7 +48,7 @@ export default [
         _name: 'CSidebarNavItem',
         name: 'Profile',
         to: '/admin/profilelist',
-        icon: 'cil-drop'
+        icon: 'cil-puzzle'
       },
       {
         _name: 'CSidebarNavItem',
@@ -93,13 +93,13 @@ export default [
         _name: 'CSidebarNavItem',
         name: 'Track List',
         to: '/track/tracklist',
-        icon: 'cil-drop'
+        icon: 'cil-cursor'
       },
       {
         _name: 'CSidebarNavItem',
         name: 'Track Update',
         to: '/track/trackupdate',
-        icon: 'cil-drop'
+        icon: 'cil-cursor'
       },
       // {
       //   _name: 'CSidebarNavItem',
@@ -107,16 +107,16 @@ export default [
       //   to: '/track/trackhistory',
       //   icon: 'cil-drop'
       // },
-      {
-        _name: 'CSidebarNavTitle',
-        _children: ['Others']
-      },
-      {
-        _name: 'CSidebarNavItem',
-        name: 'Notification',
-        to: '/other/notification',
-        icon: 'cil-bell'
-      },
+      // {
+      //   _name: 'CSidebarNavTitle',
+      //   _children: ['Others']
+      // },
+      // {
+      //   _name: 'CSidebarNavItem',
+      //   name: 'Notification',
+      //   to: '/other/notification',
+      //   icon: 'cil-bell'
+      // },
       // {
       //   _name: 'CSidebarNavTitle',
       //   _children: ['Theme']

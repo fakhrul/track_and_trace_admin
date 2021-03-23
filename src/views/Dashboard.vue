@@ -1,6 +1,6 @@
 <template>
   <div>
-    <WidgetsDropdown/>
+    <!-- <WidgetsDropdown/>
     <CCard>
       <CCardBody>
         <CRow>
@@ -449,7 +449,7 @@
           </CCardBody>
         </CCard>
       </CCol>
-    </CRow>
+    </CRow> -->
   </div>
 </template>
 
