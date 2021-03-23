@@ -67,8 +67,8 @@ export default {
       auth.logout();
       let self = this;
       // self.$router.push({ path: "/admin/species" });
-      self.$router.push({ path: "/pages/login" });
-      self.$router.push("/");
+      self.$router.push({ path: "/" });
+      // self.$router.push("/");
       location.reload(true);
     },
   },
