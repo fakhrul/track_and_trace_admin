@@ -101,8 +101,8 @@ const Notification = () => import('@/views/other/Notification')
 Vue.use(Router)
 
 const router = new Router({
-  // mode: 'hash', // https://router.vuejs.org/api/#mode
-  mode: 'history',
+  mode: 'hash', // https://router.vuejs.org/api/#mode
+  // mode: 'history',
   linkActiveClass: 'active',
   scrollBehavior: () => ({ y: 0 }),
   routes: configRoutes()
@@ -591,6 +591,11 @@ function configRoutes() {
           ]
         }
       ]
+    },
+    {
+      path: '*',
+      name: 'Page404',
+      component: Page404
     },
     {
       path: '/pages',
